@@ -1,0 +1,84 @@
+/* עיצוב בסיסי של הדף */
+body {
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    font-family: "Rubik Bubbles", system-ui, sans-serif;
+    background-image: url(./images/flat-lay-frame-with-paint-tubes-brushes.jpg);
+    background-size: cover; /* התמונה תכסה את הרקע */
+    background-repeat: no-repeat; /* תמונה לא תחזור על עצמה */
+    background-position: center center; /* תמקם את התמונה במרכז */
+    background-attachment: fixed; /* התמונה תישאר במקום כשגוללים */
+}
+
+
+.container {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select {
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+/* עיצוב לרשימת הפגישות */
+#appointments-list {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
